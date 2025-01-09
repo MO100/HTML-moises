@@ -1,27 +1,46 @@
-html{
+html {
     background-color: black;
-}
-h1{
-    color: white;
+    margin: 0; /* Remove default margins */
+    padding: 0;
+    height: 100%; /* Ensure the full height is used */
+  }
+  
+  body {
+    margin: 0; /* Remove default body margins */
+    height: 100%; /* Match the html height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  h1 {
     text-align: center;
     font-family: 'Libre Baskerville', 'Caveat', cursive;
     font-weight: 700;
-}
-.memeContainter{
+    margin: 10px 0; /* Add some spacing */
+  }
+  
+  .memeContainer {
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
-    height: 100vh; /* Full viewport height */
-}
-h2{
-    color: white;
-    font-family: "Playwrite AU SA", cursive;
-    text-align: center;
-    font-size: small
-}
-.moises{
-    margin: 200px 0px 0px 800px;
+    flex-direction: column; /* Stack the image and text vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     padding: 20px;
     background-color: white;
-    display: inline-block;
-}
+    border-radius: 8px; /* Add rounded corners */
+    max-width: 90%; /* Prevent it from taking the full width */
+    text-align: center; /* Center text inside */
+  }
+  
+  h2 {
+    font-family: 'Playwrite AU SA', cursive;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .moises img {
+    max-width: 100%; /* Ensure the image scales responsively */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Add rounded corners */
+  }
+  
