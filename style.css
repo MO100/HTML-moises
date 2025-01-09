@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', 'Caveat', cursive;
+    font-weight: 700;
+}
+.memeContainter{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+}
+h2{
+    color: white;
+    font-family: "Playwrite AU SA", cursive;
+    text-align: center;
+    font-size: small
+}
+.moises{
+    margin: 200px 0px 0px 800px;
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+}
